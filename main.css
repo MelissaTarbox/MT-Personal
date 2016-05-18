@@ -51,6 +51,12 @@ html {
     color: #101011;
   }
 
+/************* MELISSA STYLES *************/
+
+ .about {
+   height: 200px;
+   background-color: #FFFFEE;
+  }
 /************* ABOUT STYLES *************/
 
 .about {
@@ -62,7 +68,11 @@ html {
      font-family: 'Alegreya', serif;
      color: #733DE8;
   }
-  h2, h4 {
+  h2 {
+    font-family: 'Alegreya', serif;
+    color: #733DE8;
+  }
+  h4 {
     font-family: 'Alegreya', serif;
   }
 
