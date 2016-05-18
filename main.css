@@ -22,5 +22,52 @@ dk purple: #220066
 
 html {
   color: #FFFFEE;
+  text: #101011;
   font-family: 'Crete Round', serif;
+}
+
+/************* NAV STYLES *************/
+
+.nav-bar {
+  height: 90px;
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+  background-color: #733DE8;
+  list-style: none;
+  -webkit-box;
+  -moz-box;
+  -webkit-flex;
+  display: flex;
+  -webkit-box-pack: flex-end;
+  -ms-flex-pack: flex-end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+  .nav-item {
+    padding-right: 10px;
+    padding-top: 56px;
+  }
+  span {
+    color: #101011;
+  }
+
+/************* RESPONSIVE STYLES *************/
+
+@media (min-width: 768px) {
+  .nav-bar {
+    font-size: 25px;
+  }
+  .nav-item {
+    padding-right: 15px;
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+.nav-bar {
+  font-size: 30px;
+}
+  .nav-item {
+    padding-top: 45px;
+  }
 }
